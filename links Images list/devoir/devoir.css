@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(207, 144, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.cart {
+    background-color: white;
+    width: 350px;
+    padding: 30PX;
+    border: 4PX solid rgb(6, 8, 133);
+    text-align: center;
+}
+
+.status {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.Profile image {
+    width: 120px;
+    border-style: dotted;
+    outline:3px black;
+}
+
+h1 {
+    margin: 20px o;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.job {
+    font-size: 14px;
+    color: black;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    text-decoration: 4px underline rgb(5, 240, 75);
+}
+
+p {
+    font-size: 10px;
+    color: rgb(1, 17, 4);
+    line-height: 1, 5;
+    font-style: italic;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(2, 148, 58);
+}

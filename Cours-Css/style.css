@@ -1,0 +1,55 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-style:italic;
+     }
+  
+    /* 
+    font-family:
+    font-size
+    font-weight
+    font-style
+    line-height
+    */
+/* ----------------------------------
+          Coleurs dans le css
+-------------------------------------
+1 Couleurs de fonds
+2. Coleurs du texte
+3.Couleurs de bordure
+4.Effet survol
+5.Ombres et effets de textes 
+6.Deniveles
+-----------------------
+Trois selecteurs css
+#valeur de l'attribut id
+.Valeurs de l'attribut class
+balise
+--------------------------
+*/
+/* 1.Couleurs de fonds */
+.introduction{
+margin-top:10px;
+margin-bottom: 60px;
+margin-left: 30px;
+margin-right: 0%;
+padding: 20px;
+
+
+
+
+background-color: blue;
+font-style:normal;
+color: antiquewhite;
+border:5px black solid;
+}
+.introduction:hover{
+ 
+    background-color: aqua;
+    color: lab(58.74% -56.33 48.76)74% -56.33 48.76)74% -56.33 48.76)2% 51.15 33.11)2% 51.15 33.11);
+     box-shadow: 3px 4px 15px  rgba(0,0,0,0.3);
+     background-image: url("/exercices/images/photo-1488521787991-ed7bbaae773c.jpg");
+}
+.boite{
+    box-shadow: 3px 15px 6px rgba(0,0,67,0.3);
+}
