@@ -1,116 +1,22 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
-}
-.card{
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        background-color: hsl(33, 63%, 79%);
-    }
 
-.container{
-    display: flex;
-    flex-direction: row;
-        background-color: #c3d423d3;
-        min-width: 170vh;
-        
-      
-      
 }
-.Right{
-    background-color: #1a2bc5;
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.bloc-1{
+    background-color: #201f1f;
     width: 70%;
-    padding: 30px 30px;
-    position: relative;
+    height: 100vh;
 }
-.image-centrale{
-position: relative;
-left: 85%;
-z-index: 2;
-top: 25%;
-}
-.image-1{
-    position: absolute;
-    top: 40px;
-
-}
-.image-2{
-    position: absolute;
-    top: 70px;
-    right: 70px;
-
-
-}
-.left {
+.bloc-2{
+    background-color: #00ff00;
     width: 30%;
-    background-color: #85d826c4;
-    position: relative;
-}
-.image-3{
+    height: 100vh;
     position: absolute;
-    top: 60%;
-    left: 50px;
-}
-p{
-    position: relative;
-    bottom: 70px;
-    left: 60px;
-}
-
-
-.hello{
-        font-size: 28px;
-          
-}
-.h2{
-    color: #65a10a;
-    font-size: 24px;
-    margin: 10px 0;
-}
-.h3{
-        font-size: 28px;
-}
-.h3 span{
-    color: red;
-}
-p span{
-    font-style: italic;
-    color: red;
-    font-weight: bold;
-}
-button{
-    padding: 5px;
-    background-color: #8282ec;
-    color: aliceblue;
-    border: none;
-    border-radius: 9px;
-    position: relative ;
-    top: 30px;
-}
-.tiret-1{
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background-color: hwb(0 10% 13%);
-    left: 70%;
-    top: 20px;
-}
-.tiret-2 {
-    position: absolute;
-    width: 30px;
-    height: 6px;
-    background-color: hwb(0 10% 13%);
-    left: 70%;  
-    top: 30px;
-}
-.bottom{
-    position: absolute;
-    font-size: 12px;
-    text-transform: uppercase;
-    bottom: 2px;
-    left: 8px;
-    color: #292826;
+    top: 0px;
+    right: 0%;
 }
