@@ -25,6 +25,14 @@ section{
     right: 0px; 
 
 }
+.boutton{
+ background-color: black;
+ color: wheat;
+ padding: 5px 20px;
+ border: none;
+ border-radius: 5px;
+
+}
 .image{
     width: 50px;
     height: 50px;
@@ -75,6 +83,30 @@ li:hover{
 
 }
 
+/* ---------paragraphe des nombre --------- et signe + */
+.number{
+    color: #fdfcfc;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 70%;
+    left: 10%;
+   
+}
+ .num {
+     font-size: 1.8rem;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .ecrit{
+    font-size: 16px ;
+   
+ }
+ .num span{
+    color: #7FFF00;
+    font-size: 1.6rem;
+
+ }
 
 
 
@@ -85,19 +117,17 @@ li:hover{
     align-items: center;
     justify-content: space-between;
     background-color: #7FFF00;
-    /* Chartreuse / vert lime */
     width: 70px;
     min-height: 500px;
     padding: 20px 0;
     border-radius: 4px;
 }
 
-/* Texte vertical */
+
 .paragraphe-oblique {
     writing-mode: vertical-rl;
-    /* tourne le texte */
     transform: rotate(360deg);
-    /* lit de bas en haut */
+
     font-size: 13px;
     font-weight: 500;
     color: #222;
@@ -106,7 +136,7 @@ li:hover{
     margin: 0;
 }
 
-/* Conteneur des icônes */
+
 .stack-icons {
     display: flex;
     flex-direction: column;
@@ -114,7 +144,6 @@ li:hover{
     gap: 14px;
 }
 
-/* Cercle blanc autour de chaque icône */
 .icon-circle {
     background-color: white;
     border-radius: 50%;
