@@ -74,12 +74,15 @@ section{
     width: 50px;
     height: 50px;
 }
-.image-central{
-    position: absolute;
-    z-index: 3;
-    padding-left: 30%;
-
+.image-central img{
+   position: relative;
+    z-index: 3; 
+   right: -55%;
+   width: 450px;
+   bottom: 60px;
 }
+
+
 .navbar{
     position: relative;
     z-index: 2;
@@ -117,7 +120,7 @@ li:hover{
     gap: 20px;
     position: relative;
     top: 70%;
-    left: 10%;
+    padding-left: 30px;
    
 }
  .num {
@@ -145,16 +148,19 @@ li:hover{
     justify-content: space-between;
     background-color: #7FFF00;
     width: 70px;
-    min-height: 500px;
+    min-height: 300px;
     padding: 20px 0;
     border-radius: 4px;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px; 
 }
 
 
 .paragraphe-oblique {
     writing-mode: vertical-rl;
     transform: rotate(360deg);
-
     font-size: 13px;
     font-weight: 500;
     color: #222;
@@ -174,8 +180,8 @@ li:hover{
 .icon-circle {
     background-color: white;
     border-radius: 50%;
-    width: 42px;
-    height: 42px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,6 +189,6 @@ li:hover{
 }
 
 .icon-circle img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
