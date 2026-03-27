@@ -137,6 +137,16 @@ li:hover{
     font-size: 1.6rem;
 
  }
+ .bottom{
+    color: lab(32.9% -1.46 1.49);
+    position: absolute;
+    bottom: 20px ;
+    left: 40%;
+    text-transform: uppercase;
+    z-index: 6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
 
 
 
