@@ -8,6 +8,7 @@ section{
    
 }
 .bloc-1{
+    position: relative;
     background-color: black;
     width: 70%;
     height: 100vh;
@@ -17,6 +18,7 @@ section{
 
 }
 .bloc-2 {
+    position: relative;
     background-color:#7FFF00;
     width: 30%;
     height: 100vh;
